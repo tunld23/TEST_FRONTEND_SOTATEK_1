@@ -1,0 +1,101 @@
+.App {
+  text-align: center;
+  display: flex;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+.left {
+  flex: 1 1;
+}
+.left input {
+  width: 90%;
+  margin: 20px;
+}
+.left textarea {
+  width: 90%;
+  margin: 20px;
+  margin-top: -10px;
+  height: 100px;
+}
+.left .left-2 h5 {
+  text-align: left;
+  margin: 31px;
+  margin-top: 1px;
+}
+.left .left-3 {
+  display: flex;
+}
+.left .left-3 h5 {
+  text-align: left;
+  margin: 32px;
+  margin-top: 1px;
+  margin-bottom: 10px;
+}
+.left .left-3 .due-date {
+  flex: 1 45%;
+}
+.left .left-3 .due-date input {
+  width: 80%;
+  margin-top: 1px;
+}
+.left .left-3 .piority {
+  flex: 50%;
+}
+.left .left-3 .piority select {
+  width: 85%;
+}
+.piority,
+.due-date {
+  display: inline-block;
+}
+.right {
+  flex: 1 1;
+}
+.left .left-add {
+  background-color: #28a745;
+  color: #fff;
+  width: 91%;
+  height: 40px;
+  margin: 20px;
+  margin-top: 1px;
+  margin-bottom: 20px;
+}
+.box {
+  border: 1px solid black;
+  margin-top: 10px;
+}
+.box .box-title {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: solid 1px;
+  height: 50px;
+}
+.box .box-title button {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-right: 20px;
+}
+.line-last {
+  float: right;
+  border: 1px solid #000000;
+  width: 99%;
+  margin-top: 10px;
+  margin: 1;
+}
+.line-last button {
+  float: right;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-right: 20px;
+}
+
+.show-on-checkbox:checked + .target-div {
+  display: block;
+}
+.target-div {
+  display: none;
+}
